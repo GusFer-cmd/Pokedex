@@ -1,0 +1,21 @@
+.pokemon {
+    position: absolute;
+    bottom: 52%;
+    left: 51%;
+    transform: translate(-63%, 20%);
+    height: 25%;
+}
+
+.pokemon__data {
+    position: absolute;
+    font-weight: 600;
+    color: #AAAAAA;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon__name {
+    color: #3A444D;
+    text-transform: capitalize;
+}
